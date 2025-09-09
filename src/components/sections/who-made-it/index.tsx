@@ -45,7 +45,7 @@ const WhoMadeItHappen = () => {
         <div className="w-full flex items-center justify-center lg:justify-end">
           {/* <div className="relative w-full"> */}
           <Image
-            src="/assets/images/we-are-professsional.png"
+            src="/assets/images/we-are-professsional.webp"
             alt="Professional Development Illustration"
             width={718}
             height={541}
