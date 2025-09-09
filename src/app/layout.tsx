@@ -11,7 +11,6 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: `Code Encoders - Web Applications`,
-  // description: `TypeScript starter for Next.js that includes all you need to build amazing apps`,
 };
 
 export default function RootLayout({
