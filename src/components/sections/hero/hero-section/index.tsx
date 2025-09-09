@@ -63,14 +63,14 @@ const Hero = () => {
           </div>
           {/* right side - closer to edge, no right padding */}
           <div className="w-full flex justify-center lg:justify-end px-4 sm:px-6 md:px-8 lg:px-0">
-              <Image
-                src={"/assets/images/hero-img.webp"}
-                width={590}
-                height={602}
-                alt="hero-image"
-                className="object-contain w-full"
-                priority
-              />
+            <Image
+              src={"/assets/images/hero-img.webp"}
+              width={590}
+              height={602}
+              alt="hero-image"
+              className="object-contain w-full"
+              priority
+            />
           </div>
         </div>
       </div>
