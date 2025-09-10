@@ -6,7 +6,7 @@ const WhatWeProvide = () => {
   return (
     <section
       id="services"
-      className="w-full px-5 sm:px-10 pb-6 pt-24 sm:pb-8 sm:pt-24 md:pb-12 md:pt-26 lg:pb-16 lg:pt-28 xl:pb-20 xl:pt-38 flex justify-center items-center bg-[url('/assets/svgs/what-we-provide-bg.svg')] bg-cover bg-center"
+      className="w-full px-5 sm:px-10 pb-6 pt-24 sm:pb-8 sm:pt-24 md:pb-12 md:pt-26 lg:pb-16 lg:pt-28 xl:pb-20 xl:pt-38 flex justify-center items-center bg-[url('/assets/images/what-we-provide.webp')] bg-cover bg-center"
     >
       <div className="flex flex-col gap-15 max-width-section w-full">
         <div className="flex flex-col items-center gap-2">
@@ -28,7 +28,7 @@ const WhatWeProvide = () => {
         <div className="flex flex-col gap-5 sm:gap-17.5">
           <div className="flex flex-col sm:flex-row sm:items-start sm:justify-center items-center justify-center gap-5 sm:gap-7.5">
             <div className="flex flex-col gap-5 sm:gap-7.5">
-              <div className="sm:min-h-[254px] bg-black w-full flex flex-col gap-0.5 rounded-[12px] lg:rounded-[28px] border border-orange py-5 px-6 sm:py-6 lg:py-9 lg:px-10">
+              <div className="sm:min-h-[254px] leading-tight bg-black w-full flex flex-col gap-2 rounded-[12px] lg:rounded-[28px] border border-orange py-5 px-6 sm:py-6 lg:py-9 lg:px-10">
                 <Typography
                   size={"h3"}
                   as={"h3"}
@@ -45,7 +45,7 @@ const WhatWeProvide = () => {
                   processes. Secure, scalable, and custom-coded to perfection.
                 </Typography>
               </div>
-              <div className="flex flex-col gap-0.5 rounded-[12px] lg:rounded-[28px] bg-white py-5 px-6 sm:py-6 lg:py-9 lg:px-10">
+              <div className="flex leading-tight flex-col gap-2 rounded-[12px] lg:rounded-[28px] bg-white py-5 px-6 sm:py-6 lg:py-9 lg:px-10">
                 <Typography
                   size={"h3"}
                   as={"h3"}
@@ -63,8 +63,8 @@ const WhatWeProvide = () => {
                 </Typography>
               </div>
             </div>
-            <div className="flex flex-col gap-5 sm:gap-7.5">
-              <div className="flex flex-col gap-0.5 rounded-[12px] lg:rounded-[28px] bg-white py-5 px-6 sm:py-6 lg:py-9 lg:px-10">
+            <div className="flex  flex-col gap-5 sm:gap-7.5">
+              <div className="flex flex-col gap-2 leading-tight rounded-[12px] lg:rounded-[28px] bg-white py-5 px-6 sm:py-6 lg:py-9 lg:px-10">
                 <Typography
                   size={"h3"}
                   as={"h3"}
@@ -82,7 +82,7 @@ const WhatWeProvide = () => {
                 </Typography>
               </div>
               <div className="flex flex-col xl:flex-row gap-5 sm:gap-7.5">
-                <div className="flex flex-col gap-0.5 lg:min-h-[290px] rounded-[12px] lg:rounded-[28px] bg-white py-5 px-6 sm:py-6 lg:py-9 lg:px-10">
+                <div className="flex flex-col gap-2 leading-tight lg:min-h-[290px] rounded-[12px] lg:rounded-[28px] bg-white py-5 px-6 sm:py-6 lg:py-9 lg:px-10">
                   <Typography
                     size={"h3"}
                     as={"h3"}
@@ -99,7 +99,7 @@ const WhatWeProvide = () => {
                     experiences that drive results.
                   </Typography>
                 </div>
-                <div className="flex flex-col gap-0.5 lg:min-h-[290px] rounded-[12px] lg:rounded-[28px] bg-white py-5 px-6 sm:py-6 lg:py-9 lg:px-10">
+                <div className="flex flex-col gap-2 leading-tight lg:min-h-[290px] rounded-[12px] lg:rounded-[28px] bg-white py-5 px-6 sm:py-6 lg:py-9 lg:px-10">
                   <Typography
                     size={"h3"}
                     as={"h3"}

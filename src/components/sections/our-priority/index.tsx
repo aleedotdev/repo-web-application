@@ -13,7 +13,7 @@ const TrustPriority = () => {
             <Typography
               as="h2"
               size="h1"
-              className="leading-tight font-eurostile text-black mb-4 sm:mb-6"
+              className="leading-none font-eurostile text-black pb-3"
             >
               Your Trust is Our Priority
             </Typography>
@@ -21,7 +21,7 @@ const TrustPriority = () => {
             <Typography
               size="lg"
               as="p"
-              className="text-dark-gray leading-relaxed mb-6 sm:mb-8"
+              className="text-dark-gray leading-relaxed pb-6"
             >
               We believe in building software and relationships that last. From
               idea to implementation, transparency and trust guide every step.

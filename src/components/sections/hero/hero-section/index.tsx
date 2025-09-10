@@ -5,26 +5,26 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="w-full pb-6 pt-24 sm:pb-8 sm:pt-24 md:pb-12 md:pt-26 lg:pb-16 lg:pt-28 xl:pb-20 xl:pt-38 px-5 sm:px-20 xl:pl-32 flex justify-center items-center bg-[url('/assets/svgs/hero-bg.svg')] bg-cover bg-center">
+    <section className="w-full pb-6 pt-24 sm:pb-8 sm:pt-24 md:pb-12 md:pt-26 lg:pb-16 lg:pt-28 xl:pb-20 xl:pt-38 px-5 sm:px-20 xl:pl-32 flex justify-center items-center bg-[url('/assets/images/hero-bg.webp')] bg-cover bg-center">
       <div className="w-full max-width-section">
         <div className="flex flex-col lg:flex-row gap-6 sm:gap-8 md:gap-10 lg:gap-12 xl:gap-16 items-center">
           <div className="w-full flex flex-col text-center lg:text-left">
-            <div className="flex flex-col gap-8 sm:gap-10 md:gap-12">
+            <div className="flex flex-col gap-8 sm:gap-10 md:gap-8">
               <div className="flex flex-col">
                 <div className="flex flex-col">
                   <Typography
                     size={"lg"}
                     as={"p"}
-                    className="text-blue font-eurostile-semibold text-sm sm:text-base md:text-lg lg:text-xl"
+                    className="text-blue font-eurostile-semibold text-sm sm:text-base md:text-lg lg:text-xl pb-4"
                   >
                     Let's Build
                   </Typography>
                   <Typography
                     size={"h1"}
                     as={"h1"}
-                    className="font-eurostile text-white leading-tight"
+                    className="font-eurostile text-white leading-none"
                   >
-                    Custom Web Applications That Drive Business Growth
+                    Custom Web Applications That Drive <span className="text-orange">Business Growth</span>
                   </Typography>
                 </div>
                 <div className="flex flex-col gap-3 sm:gap-4 md:gap-5 mt-4 sm:mt-6">
