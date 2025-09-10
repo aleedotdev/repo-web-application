@@ -6,23 +6,24 @@ const WhoMadeItHappen = () => {
   return (
     <section
       id="about"
-      className="w-full pb-6 pt-24 sm:pb-8 sm:pt-24 md:pb-12 md:pt-26 lg:pb-16 lg:pt-28 xl:pb-20 xl:pt-38 px-5 sm:pl-20 xl:pl-32 flex justify-center items-center bg-[url('/assets/svgs/who-made-it-bg.svg')] bg-cover bg-center"
+      className="w-full pb-6 pt-24 sm:pb-8 sm:pt-24 md:pb-12 md:pt-26 lg:pb-16 lg:pt-28 xl:pb-20 xl:pt-38 px-5 sm:pl-20 xl:pl-32 flex justify-center items-center bg-[url('/assets/images/who-made-it.webp')] bg-cover bg-center"
     >
       <div className="max-width-section w-full flex flex-col lg:flex-row justify-between gap-10 items-center">
         {/* Left Side - Content */}
         <div className="flex justify-center lg:justify-start items-center">
           <div>
+            
             <Typography
               as="h1"
               size="h1"
-              className="leading-tight font-eurostile whitespace-pre-wrap text-white mb-2"
+              className="leading-none font-eurostile whitespace-pre-wrap text-white mb-2"
             >
               We are Professionals
             </Typography>
             <Typography
               as="h1"
               size="h1"
-              className="leading-tight text-light-orange font-eurostile mb-2"
+              className="leading-none text-light-orange font-eurostile pb-6"
             >
               Who Made It Happen.
             </Typography>

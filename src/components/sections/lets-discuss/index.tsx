@@ -61,30 +61,34 @@ const ContactFormSection = () => {
     >
       <div className="max-width-section w-full grid lg:grid-cols-2 lg:gap-12">
         {/* Left Side - Content */}
-        <div className="flex items-center justify-center">
-          <div>
-            <Typography
-              as="h1"
-              size="h1"
-              className="text-black leading-tight font-eurostile"
-            >
-              Let's Discuss
-            </Typography>
-            <Typography
-              as="h1"
-              size="h1"
-              className="leading-tight text-orange font-eurostile"
-            >
-              Your Next Big Idea
-            </Typography>
+        <div className="flex items-center justify-center leading-normal">
+          <div className="flex flex-col gap-3">
+            <div>
+              <Typography
+                as="h1"
+                size="h1"
+                className="text-black leading-none font-eurostile"
+              >
+                Let's Discuss
+              </Typography>
+              <Typography
+                as="h1"
+                size="h1"
+                className="leading-none text-orange font-eurostile"
+              >
+                Your Next Big Idea
+              </Typography>
+            </div>
+            <div>
             <Typography
               size="lg"
-              className="text-dark-gray max-w-md leading-relaxed"
+              className="text-dark-gray lg:max-w-[580px] leading-normal"
             >
               Every successful product starts with a conversation. Get expert
               consultation from our team to validate your idea, define your
               scope, and discover the best-fit technology — free of charge.
             </Typography>
+            </div>
           </div>
         </div>
 

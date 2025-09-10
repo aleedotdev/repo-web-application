@@ -10,15 +10,15 @@ const IndustriesSection = () => {
       className="bg-white flex items-center justify-center py-12 sm:py-15 px-5 sm:px-20 xl:px-32"
     >
       <div className="w-full flex flex-col justify-center items-center gap-10">
-        <div className="flex flex-col gap-1 items-center justify-center">
+        <div className="flex flex-col gap-2 items-center justify-center">
           <Typography
             size={"h1"}
             as={"h1"}
-            className="text-black font-eurostile text-start sm:text-center leading-tight"
+            className="text-black font-eurostile text-start sm:text-center"
           >
             Industries <span className="text-orange">We Empower</span>
           </Typography>
-          <Typography className="text-dark-gray text-start sm:text-center leading-tight max-w-[1146px]">
+          <Typography className="text-dark-gray text-start sm:text-center w-full max-w-[900px]">
             We serve diverse industries by blending technology with strategy.
             Whether in health tech, logistics, or blockchain, our solutions are
             designed to help businesses innovate and scale.

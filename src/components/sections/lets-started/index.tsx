@@ -24,10 +24,11 @@ const LetsStarted = () => {
         {/* Right Side - Content */}
         <div className="flex items-center justify-center lg:justify-start">
           <div>
+            <div className="flex flex-col gap-2">
             <Typography
               size="h5"
               as={"h5"}
-              className="text-orange font-eurostile-semibold tracking-wider uppercase mb-2"
+              className="text-orange font-eurostile-semibold tracking-wider uppercase mb-1"
             >
               GET STARTED
             </Typography>
@@ -35,22 +36,23 @@ const LetsStarted = () => {
             <Typography
               as="h1"
               size="h1"
-              className="leading-none font-eurostile mb-2"
+              className="leading-none font-eurostile mb-0"
             >
               Get Started With
             </Typography>
+            </div>
 
             <Typography
               as="h1"
               size="h1"
-              className="leading-tight text-orange font-eurostile mb-6"
+              className="leading-none text-orange font-eurostile mb-3"
             >
               Code Encoders
             </Typography>
 
             <Typography
               size="lg"
-              className="text-dark-gray max-w-md leading-relaxed mb-8"
+              className="text-dark-gray max-w-md leading-relaxed pb-6"
             >
               From discovery to deployment, and from development to deployment
               we're with you at every step. Let's turn your idea into a powerful

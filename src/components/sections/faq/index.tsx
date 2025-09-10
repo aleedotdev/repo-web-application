@@ -8,11 +8,11 @@ const Faq = () => {
   const faqData = content?.faqData;
 
   return (
-    <section className="bg-black flex justify-center items-center py-8 px-4 sm:py-12 sm:px-6 lg:px-10 lg:py-16 bg-[url('/assets/svgs/faq-bg-sm.svg')] sm:bg-[url('/assets/svgs/faq-bg.svg')] bg-cover bg-center min-h-[500px] sm:min-h-[600px]">
+    <section className="bg-black flex justify-center items-center py-8 px-4 sm:py-12 sm:px-6 lg:px-10 lg:py-16 bg-[url('/assets/images/faq-bg.webp')] bg-cover bg-center min-h-[500px] sm:min-h-[600px]">
       <div className="bg-faq-gradient w-full max-w-[1600px] rounded-xl sm:rounded-2xl shadow-2xl py-8 px-4 sm:py-12 sm:px-8 md:py-16 md:px-12 lg:py-20 xl:px-22">
         <div className="max-width-section flex flex-col justify-center gap-8 sm:gap-10 lg:gap-12 lg:flex-row lg:justify-between lg:items-start">
           {/* Title Section */}
-          <div className="space-y-2 lg:flex-shrink-0 lg:max-w-sm">
+          <div className="space-y-3 lg:flex-shrink-0 lg:max-w-sm">
             <Typography
               size={"lg"}
               as={"p"}

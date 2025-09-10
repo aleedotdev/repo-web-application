@@ -147,7 +147,7 @@ const Footer = () => {
                   as={"p"}
                   className="text-white font-eurostile-semibold leading-relaxed text-nowrap"
                 >
-                  PAK HQ:
+                  ASIA HQ:
                 </Typography>
                 <Typography
                   size={"lg"}

@@ -94,14 +94,14 @@ const OurClients = () => {
             <Typography
               as="h1"
               size="h1"
-              className="text-dark-black leading-tight font-eurostile"
+              className="text-dark-black leading-none font-eurostile"
             >
               Hear From
             </Typography>
             <Typography
               as="h1"
               size="h1"
-              className="text-orange leading-tight font-eurostile"
+              className="text-orange leading-none font-eurostile"
             >
               Our Clients
             </Typography>

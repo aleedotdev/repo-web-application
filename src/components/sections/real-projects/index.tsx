@@ -10,7 +10,7 @@ const RealProjects = () => {
   return (
     <section
       id="portfolio"
-      className="w-full bg-[url('/assets/svgs/real-projects-bg.svg')] bg-cover bg-center pt-24 pb-18.5"
+      className="w-full bg-[url('/assets/images/real-projects.webp')] bg-cover bg-center pt-24 pb-18.5"
     >
       <div className="container mx-auto">
         {/* Header Section */}
@@ -19,7 +19,7 @@ const RealProjects = () => {
             <Typography
               size={"h1"}
               as={"h1"}
-              className="text-white font-eurostile text-center"
+              className="text-white leading-normal font-eurostile text-center"
             >
               Real Projects. Real Results
             </Typography>
@@ -31,7 +31,7 @@ const RealProjects = () => {
               From MVPs for startups to scalable SaaS platforms for enterprises
             </Typography>
           </div>
-          <hr className="w-3/4 max-w-[480px] border-b border-2 border-orange rounded-2xl" />
+          <hr className="w-3/4 max-w-[408px] border-b border-2 border-orange rounded-2xl" />
         </div>
       </div>
 
