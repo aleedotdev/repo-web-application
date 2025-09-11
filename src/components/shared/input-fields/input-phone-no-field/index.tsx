@@ -75,7 +75,7 @@ const InputPhoneField: FC<PhoneFieldProps> = memo(
             .map((country: any) => ({
               name: country.name.common,
               code: country.idd.root + (country.idd.suffixes[0] || ""),
-              flag: `https://flagcdn.com/w320/${country.cca2.toLowerCase()}.png`,
+              flag: country.flags.svg,
             }))
             .sort((a: Country, b: Country) => a.name.localeCompare(b.name));
 
@@ -180,12 +180,12 @@ const InputPhoneField: FC<PhoneFieldProps> = memo(
           value={value}
           onBlur={onBlur}
           onFocus={onFocus}
-          disabled={disabled || loading}
+          disabled={disabled}
           onChange={handlePhoneNumberChange}
           placeholder={placeholder}
           className={`px-5 py-4 flex-1 ${textColor} border ${
             error ? "border-red" : "border-gray-300"
-          } text-lg placeholder:text-md placeholder:text-dark-gray placeholder:font-medium disabled:text-gray disabled:border-gray disabled:cursor-not-allowed font-medium disabled:bg-gray-100 focus:outline-none rounded-[12px] w-full ${styling}`}
+          } text-lg placeholder:text-md placeholder:text-dark-gray placeholder:font-medium  disabled:cursor-not-allowed font-medium disabled:bg-gray-100 focus:outline-none rounded-[12px] w-full ${styling}`}
         />
         {dropdownOpen && (
           <div
