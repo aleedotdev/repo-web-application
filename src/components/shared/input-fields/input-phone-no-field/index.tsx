@@ -75,7 +75,7 @@ const InputPhoneField: FC<PhoneFieldProps> = memo(
             .map((country: any) => ({
               name: country.name.common,
               code: country.idd.root + (country.idd.suffixes[0] || ""),
-              flag: `https://flagcdn.com/w320/${country.cca2.toLowerCase()}.png`,
+              flag: country.flags.svg,
             }))
             .sort((a: Country, b: Country) => a.name.localeCompare(b.name));
 
