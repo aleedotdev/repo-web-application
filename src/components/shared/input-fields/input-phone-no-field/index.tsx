@@ -180,12 +180,12 @@ const InputPhoneField: FC<PhoneFieldProps> = memo(
           value={value}
           onBlur={onBlur}
           onFocus={onFocus}
-          disabled={disabled || loading}
+          disabled={disabled}
           onChange={handlePhoneNumberChange}
           placeholder={placeholder}
           className={`px-5 py-4 flex-1 ${textColor} border ${
             error ? "border-red" : "border-gray-300"
-          } text-lg placeholder:text-md placeholder:text-dark-gray placeholder:font-medium disabled:text-gray disabled:border-gray disabled:cursor-not-allowed font-medium disabled:bg-gray-100 focus:outline-none rounded-[12px] w-full ${styling}`}
+          } text-lg placeholder:text-md placeholder:text-dark-gray placeholder:font-medium  disabled:cursor-not-allowed font-medium disabled:bg-gray-100 focus:outline-none rounded-[12px] w-full ${styling}`}
         />
         {dropdownOpen && (
           <div
