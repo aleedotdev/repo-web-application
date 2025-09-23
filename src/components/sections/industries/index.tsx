@@ -9,7 +9,7 @@ const IndustriesSection = () => {
       id="contactUs"
       className="bg-white flex items-center justify-center py-12 sm:py-15 px-5 sm:px-20 xl:px-32"
     >
-      <div className="w-full flex flex-col justify-center items-center gap-10">
+      <div className="w-full flex flex-col justify-center items-center lg:gap-10">
         <div className="flex flex-col gap-2 items-center justify-center">
           <Typography
             size={"h1"}
